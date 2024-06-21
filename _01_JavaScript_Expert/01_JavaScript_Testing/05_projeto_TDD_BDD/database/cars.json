@@ -1,0 +1,16 @@
+[
+    {
+        "id": "6724e7ae-5bb1-4716-9274-56b290c95d1a",
+        "name": "ATS",
+        "releaseYear": 2023,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "7c5de773-c26a-434f-bbcb-7b0b28109408",
+        "name": "Grand Caravan",
+        "releaseYear": 2024,
+        "available": true,
+        "gasAvailable": true
+    }
+]
