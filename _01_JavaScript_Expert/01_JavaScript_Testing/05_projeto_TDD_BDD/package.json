@@ -1,19 +1,27 @@
 {
   "name": "05_projeto_tdd_bdd",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx mocha --parallel test/unitTests/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js",
     "seed": "node ./seed"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "faker": "^5.1.0"
+    "chai": "^4.2.0",
+    "faker": "^5.1.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.1"
+  },
+  "dependencies": {
+    "@sinonjs/referee-sinon": "^12.0.0"
   }
 }
